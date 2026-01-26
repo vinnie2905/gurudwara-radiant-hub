@@ -7,6 +7,7 @@ import khandaSymbol from "@/assets/khanda-symbol.png";
 const navLinks = [
   { name: "Home", path: "/" },
   { name: "About Us", path: "/about" },
+  { name: "Live Kirtan", path: "/live-kirtan" },
   { name: "Donation", path: "/donation" },
   { name: "Gallery", path: "/gallery" },
   { name: "Calendar", path: "/calendar" },
