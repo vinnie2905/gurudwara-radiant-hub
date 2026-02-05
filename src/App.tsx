@@ -11,6 +11,8 @@ import Calendar from "./pages/Calendar";
 import Marketplace from "./pages/Marketplace";
 import Contact from "./pages/Contact";
 import LiveKirtan from "./pages/LiveKirtan";
+import Auth from "./pages/Auth";
+import Account from "./pages/Account";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,6 +32,8 @@ const App = () => (
           <Route path="/marketplace" element={<Marketplace />} />
           <Route path="/live-kirtan" element={<LiveKirtan />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/auth" element={<Auth />} />
+          <Route path="/account" element={<Account />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
